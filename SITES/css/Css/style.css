@@ -1,0 +1,37 @@
+/* Estilo geral da página */
+body {
+    background-color: white;   /* fundo branco */
+    color: black;              /* texto preto */
+    font-family: Arial, sans-serif; /* fonte limpa */
+    line-height: 1.8;          /* espaçamento entre linhas */
+    margin: 20px;              /* margem interna */
+}
+
+/* Título principal */
+h1 {
+    text-align: center;        /* centralizado */
+    color: darkblue;           /* cor azul escuro */
+    margin-bottom: 30px;       /* espaço abaixo */
+}
+
+/* Subtítulos */
+h2 {
+    margin-top: 25px;          /* espaço acima */
+    color: #333;               /* cinza escuro */
+}
+
+/* Parágrafos */
+p {
+    text-align: justify;       /* texto justificado */
+    margin-bottom: 15px;       /* espaço abaixo */
+}
+
+/* Links (se você usar no futuro) */
+a {
+    color: darkred;
+    text-decoration: none;
+}
+
+a:hover {
+    color: orange;
+}

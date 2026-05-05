@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>O que é CSS</title>
+    <style>
+        body {
+            background-color: #fff8f0;
+            color: #333;
+            font-family: "Segoe UI", Arial, sans-serif;
+            line-height: 1.8;
+            margin: 40px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #e65c00;
+            font-size: 40px;
+        }
+        h2 {
+            margin-top: 25px;
+            color: #e65c00;
+            border-left: 6px solid #ff944d;
+            padding-left: 10px;
+        }
+        p {
+            text-align: justify;
+            margin-bottom: 15px;
+        }
+        ul {
+            margin: 15px 0;
+            padding-left: 25px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+        th, td {
+            padding: 12px;
+            text-align: center;
+        }
+        th {
+            background-color: #ff944d;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #ffe0cc;
+        }
+        tr:nth-child(odd) {
+            background-color: #fff5ec;
+        }
+        .autores {
+            margin-top: 60px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            color: #e65c00;
+        }
+    </style>
+</head>
+<body>
+    <h1>O que é CSS</h1>
+
+    <h2>Definição</h2>
+    <p>
+        CSS significa Cascading Style Sheets, ou Folhas de Estilo em Cascata. É a linguagem usada para controlar
+        a aparência de páginas web. Enquanto o HTML organiza o conteúdo, o CSS define como esse conteúdo será exibido,
+        permitindo escolher cores, fontes, tamanhos, espaçamento, alinhamento e até animações.
+    </p>
+
+    <h2>História</h2>
+    <p>
+        O CSS foi criado em 1996 pelo W3C. Antes dele, os sites eram simples e pouco atraentes, pois o HTML não conseguia
+        separar conteúdo de estilo. Com o CSS, tornou-se possível criar páginas mais bonitas, organizadas e fáceis de manter.
+        Ao longo dos anos, novas versões foram surgindo, como o CSS2 e o CSS3, trazendo recursos avançados como animações,
+        transições e design responsivo. Hoje, o CSS é fundamental para qualquer projeto web moderno.
+    </p>
+
+    <h2>Tipos de CSS</h2>
+    <ul>
+        <li><b>Inline:</b> aplicado diretamente dentro da tag HTML.</li>
+        <li><b>Interno:</b> escrito dentro da tag &lt;style&gt; no próprio arquivo HTML.</li>
+        <li><b>Externo:</b> em um arquivo separado (.css), conectado ao HTML com &lt;link&gt;.</li>
+    </ul>
+
+    <h2>Principais Vantagens</h2>
+    <p>
+        O CSS permite reutilizar estilos em várias páginas, garante consistência visual, facilita a manutenção e possibilita
+        criar layouts responsivos que se adaptam a diferentes tamanhos de tela. Além disso, ajuda a separar conteúdo de design,
+        tornando o código mais limpo e organizado.
+    </p>
+
+    <table>
+        <tr>
+            <th>Vantagem</th>
+            <th>Descrição</th>
+        </tr>
+        <tr>
+            <td>Reutilização</td>
+            <td>Um mesmo estilo pode ser aplicado em várias páginas.</td>
+        </tr>
+        <tr>
+            <td>Consistência</td>
+            <td>O site mantém a mesma aparência em todas as partes.</td>
+        </tr>
+        <tr>
+            <td>Responsividade</td>
+            <td>Adapta o layout para celulares, tablets e computadores.</td>
+        </tr>
+        <tr>
+            <td>Manutenção</td>
+            <td>Alterar um estilo no CSS reflete em todo o site.</td>
+        </tr>
+        <tr>
+            <td>Estética</td>
+            <td>Permite criar páginas modernas, atraentes e profissionais.</td>
+        </tr>
+        <tr>
+            <td>Flexibilidade</td>
+            <td>Oferece controle detalhado sobre cada elemento visual.</td>
+        </tr>
+    </table>
+
+    <h2>Boas Práticas</h2>
+    <ul>
+        <li>Separar conteúdo (HTML) de estilo (CSS externo).</li>
+        <li>Usar classes e IDs para organizar melhor os estilos.</li>
+        <li>Evitar repetição de código.</li>
+        <li>Comentar trechos importantes para facilitar manutenção.</li>
+        <li>Utilizar nomes de classes claros e significativos.</li>
+        <li>Aplicar design responsivo para diferentes dispositivos.</li>
+        <li>Manter consistência visual em todo o site.</li>
+    </ul>
+
+    <h2>Aplicações práticas</h2>
+    <p>
+        Com CSS é possível criar desde pequenas alterações visuais, como mudar a cor de um texto, até grandes projetos
+        de design, como layouts complexos, menus interativos e animações. Ele é usado em praticamente todos os sites
+        modernos e é essencial para qualquer desenvolvedor web. Além disso, frameworks como Bootstrap e Tailwind CSS
+        foram criados para acelerar o desenvolvimento, oferecendo estilos prontos e responsivos.
+    </p>
+
+    <h2>CSS no dia a dia</h2>
+    <p>
+        O CSS está presente em praticamente tudo que vemos na web. Desde blogs pessoais até grandes portais de notícias,
+        passando por lojas virtuais e redes sociais. Sem CSS, a internet seria apenas uma coleção de textos sem estilo,
+        sem cores e sem organização visual. Ele é o responsável por transformar informação em experiência agradável.
+    </p>
+
+    <h2>Lição de Moral</h2>
+    <p>
+        O CSS mostra que não basta ter conteúdo, é preciso apresentá-lo de forma clara e agradável.
+        Assim como na vida, organização e estética andam juntas para criar impacto. Ele nos ensina que
+        a forma como mostramos nossas ideias é tão importante quanto o que estamos comunicando.
+    </p>
+
+    <!-- Nomes centralizados no final -->
+    <div class="autores">
+        Feito por: Isabelle Arisa Sakamoto, Pietro Mariano Policarpo
+    </div>
+</body>
+</html>
